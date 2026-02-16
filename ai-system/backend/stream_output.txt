@@ -1,0 +1,138 @@
+﻿{"type": "thought", "content": "Consulting AI Planner for Standard Operations operations..."}
+{"type": "thought", "content": "Initializing specialized engine for: generate_ci_and_docker..."}
+{"type": "action", "content": "Running generate_ci_and_docker module"}
+{"type": "thought", "content": "Feature execution successful. Synthesizing response."}
+{"type": "thought", "content": "Formulating final response..."}
+{"type": "token", "content": "Processing general query..."}
+{"type": "token", "content": "I un"}
+{"type": "token", "content": "ders"}
+{"type": "token", "content": "tand"}
+{"type": "token", "content": " you"}
+{"type": "token", "content": "'re "}
+{"type": "token", "content": "aski"}
+{"type": "token", "content": "ng a"}
+{"type": "token", "content": "bout"}
+{"type": "token", "content": ": **"}
+{"type": "token", "content": "User"}
+{"type": "token", "content": ": Ge"}
+{"type": "token", "content": "nera"}
+{"type": "token", "content": "te D"}
+{"type": "token", "content": "ocke"}
+{"type": "token", "content": "r\n\nF"}
+{"type": "token", "content": "EATU"}
+{"type": "token", "content": "RE E"}
+{"type": "token", "content": "XECU"}
+{"type": "token", "content": "TION"}
+{"type": "token", "content": " RES"}
+{"type": "token", "content": "ULT "}
+{"type": "token", "content": "(gen"}
+{"type": "token", "content": "erat"}
+{"type": "token", "content": "e_ci"}
+{"type": "token", "content": "_and"}
+{"type": "token", "content": "_doc"}
+{"type": "token", "content": "ker)"}
+{"type": "token", "content": ":\nSU"}
+{"type": "token", "content": "CCES"}
+{"type": "token", "content": "S: D"}
+{"type": "token", "content": "evOp"}
+{"type": "token", "content": "s st"}
+{"type": "token", "content": "ack "}
+{"type": "token", "content": "gene"}
+{"type": "token", "content": "rate"}
+{"type": "token", "content": "d (D"}
+{"type": "token", "content": "ocke"}
+{"type": "token", "content": "rfil"}
+{"type": "token", "content": "e, d"}
+{"type": "token", "content": "ocke"}
+{"type": "token", "content": "r-co"}
+{"type": "token", "content": "mpos"}
+{"type": "token", "content": "e.ym"}
+{"type": "token", "content": "l, c"}
+{"type": "token", "content": "i.ym"}
+{"type": "token", "content": "l, R"}
+{"type": "token", "content": "EADM"}
+{"type": "token", "content": "E up"}
+{"type": "token", "content": "date"}
+{"type": "token", "content": ").**"}
+{"type": "token", "content": ". \n\n"}
+{"type": "token", "content": "As a"}
+{"type": "token", "content": "n ad"}
+{"type": "token", "content": "vanc"}
+{"type": "token", "content": "ed A"}
+{"type": "token", "content": "I sy"}
+{"type": "token", "content": "stem"}
+{"type": "token", "content": " ope"}
+{"type": "token", "content": "rati"}
+{"type": "token", "content": "ng i"}
+{"type": "token", "content": "n **"}
+{"type": "token", "content": "Mock"}
+{"type": "token", "content": " Mod"}
+{"type": "token", "content": "e**,"}
+{"type": "token", "content": " I c"}
+{"type": "token", "content": "an s"}
+{"type": "token", "content": "imul"}
+{"type": "token", "content": "ate "}
+{"type": "token", "content": "comp"}
+{"type": "token", "content": "lex "}
+{"type": "token", "content": "reas"}
+{"type": "token", "content": "onin"}
+{"type": "token", "content": "g an"}
+{"type": "token", "content": "d ta"}
+{"type": "token", "content": "sk e"}
+{"type": "token", "content": "xecu"}
+{"type": "token", "content": "tion"}
+{"type": "token", "content": ". Pl"}
+{"type": "token", "content": "ease"}
+{"type": "token", "content": " try"}
+{"type": "token", "content": " ask"}
+{"type": "token", "content": "ing "}
+{"type": "token", "content": "me t"}
+{"type": "token", "content": "o:\n-"}
+{"type": "token", "content": " **R"}
+{"type": "token", "content": "esea"}
+{"type": "token", "content": "rch*"}
+{"type": "token", "content": "* a "}
+{"type": "token", "content": "comp"}
+{"type": "token", "content": "lex "}
+{"type": "token", "content": "topi"}
+{"type": "token", "content": "c (e"}
+{"type": "token", "content": ".g.,"}
+{"type": "token", "content": " 'Re"}
+{"type": "token", "content": "sear"}
+{"type": "token", "content": "ch f"}
+{"type": "token", "content": "usio"}
+{"type": "token", "content": "n en"}
+{"type": "token", "content": "ergy"}
+{"type": "token", "content": "')\n-"}
+{"type": "token", "content": " **W"}
+{"type": "token", "content": "rite"}
+{"type": "token", "content": " Cod"}
+{"type": "token", "content": "e** "}
+{"type": "token", "content": "(e.g"}
+{"type": "token", "content": "., '"}
+{"type": "token", "content": "Writ"}
+{"type": "token", "content": "e a "}
+{"type": "token", "content": "Pyth"}
+{"type": "token", "content": "on s"}
+{"type": "token", "content": "crip"}
+{"type": "token", "content": "t fo"}
+{"type": "token", "content": "r da"}
+{"type": "token", "content": "ta s"}
+{"type": "token", "content": "crap"}
+{"type": "token", "content": "ing'"}
+{"type": "token", "content": ")\n- "}
+{"type": "token", "content": "**De"}
+{"type": "token", "content": "bug*"}
+{"type": "token", "content": "* an"}
+{"type": "token", "content": " iss"}
+{"type": "token", "content": "ue ("}
+{"type": "token", "content": "e.g."}
+{"type": "token", "content": ", 'F"}
+{"type": "token", "content": "ix t"}
+{"type": "token", "content": "his "}
+{"type": "token", "content": "Reac"}
+{"type": "token", "content": "t co"}
+{"type": "token", "content": "mpon"}
+{"type": "token", "content": "ent'"}
+{"type": "token", "content": ")"}
+

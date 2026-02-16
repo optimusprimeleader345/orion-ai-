@@ -1,0 +1,98 @@
+﻿{"type": "thought", "content": "Consulting AI Planner for Standard Operations operations..."}
+{"type": "thought", "content": "Formulating final response..."}
+{"type": "token", "content": "Processing general query..."}
+{"type": "token", "content": "I un"}
+{"type": "token", "content": "ders"}
+{"type": "token", "content": "tand"}
+{"type": "token", "content": " you"}
+{"type": "token", "content": "'re "}
+{"type": "token", "content": "aski"}
+{"type": "token", "content": "ng a"}
+{"type": "token", "content": "bout"}
+{"type": "token", "content": ": **"}
+{"type": "token", "content": "User"}
+{"type": "token", "content": ": er"}
+{"type": "token", "content": "ror "}
+{"type": "token", "content": "chec"}
+{"type": "token", "content": "k**."}
+{"type": "token", "content": " \n\nA"}
+{"type": "token", "content": "s an"}
+{"type": "token", "content": " adv"}
+{"type": "token", "content": "ance"}
+{"type": "token", "content": "d AI"}
+{"type": "token", "content": " sys"}
+{"type": "token", "content": "tem "}
+{"type": "token", "content": "oper"}
+{"type": "token", "content": "atin"}
+{"type": "token", "content": "g in"}
+{"type": "token", "content": " **M"}
+{"type": "token", "content": "ock "}
+{"type": "token", "content": "Mode"}
+{"type": "token", "content": "**, "}
+{"type": "token", "content": "I ca"}
+{"type": "token", "content": "n si"}
+{"type": "token", "content": "mula"}
+{"type": "token", "content": "te c"}
+{"type": "token", "content": "ompl"}
+{"type": "token", "content": "ex r"}
+{"type": "token", "content": "easo"}
+{"type": "token", "content": "ning"}
+{"type": "token", "content": " and"}
+{"type": "token", "content": " tas"}
+{"type": "token", "content": "k ex"}
+{"type": "token", "content": "ecut"}
+{"type": "token", "content": "ion."}
+{"type": "token", "content": " Ple"}
+{"type": "token", "content": "ase "}
+{"type": "token", "content": "try "}
+{"type": "token", "content": "aski"}
+{"type": "token", "content": "ng m"}
+{"type": "token", "content": "e to"}
+{"type": "token", "content": ":\n- "}
+{"type": "token", "content": "**Re"}
+{"type": "token", "content": "sear"}
+{"type": "token", "content": "ch**"}
+{"type": "token", "content": " a c"}
+{"type": "token", "content": "ompl"}
+{"type": "token", "content": "ex t"}
+{"type": "token", "content": "opic"}
+{"type": "token", "content": " (e."}
+{"type": "token", "content": "g., "}
+{"type": "token", "content": "'Res"}
+{"type": "token", "content": "earc"}
+{"type": "token", "content": "h fu"}
+{"type": "token", "content": "sion"}
+{"type": "token", "content": " ene"}
+{"type": "token", "content": "rgy'"}
+{"type": "token", "content": ")\n- "}
+{"type": "token", "content": "**Wr"}
+{"type": "token", "content": "ite "}
+{"type": "token", "content": "Code"}
+{"type": "token", "content": "** ("}
+{"type": "token", "content": "e.g."}
+{"type": "token", "content": ", 'W"}
+{"type": "token", "content": "rite"}
+{"type": "token", "content": " a P"}
+{"type": "token", "content": "ytho"}
+{"type": "token", "content": "n sc"}
+{"type": "token", "content": "ript"}
+{"type": "token", "content": " for"}
+{"type": "token", "content": " dat"}
+{"type": "token", "content": "a sc"}
+{"type": "token", "content": "rapi"}
+{"type": "token", "content": "ng')"}
+{"type": "token", "content": "\n- *"}
+{"type": "token", "content": "*Deb"}
+{"type": "token", "content": "ug**"}
+{"type": "token", "content": " an "}
+{"type": "token", "content": "issu"}
+{"type": "token", "content": "e (e"}
+{"type": "token", "content": ".g.,"}
+{"type": "token", "content": " 'Fi"}
+{"type": "token", "content": "x th"}
+{"type": "token", "content": "is R"}
+{"type": "token", "content": "eact"}
+{"type": "token", "content": " com"}
+{"type": "token", "content": "pone"}
+{"type": "token", "content": "nt')"}
+

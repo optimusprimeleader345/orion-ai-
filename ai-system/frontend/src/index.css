@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium Ultra-Dark Theme */
+:root {
+  --bg-main: #0A0A0B;
+  --bg-card: #121214;
+  --accent: #6366F1;
+  --accent-soft: rgba(99, 102, 241, 0.1);
+  --border: rgba(255, 255, 255, 0.06);
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.5);
+}
+
+@layer base {
+
+  html,
+  body {
+    @apply bg-[#0A0A0B] text-white antialiased overflow-hidden h-full selection:bg-indigo-500/30 selection:text-white;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+
+  /* Minimal High-Fidelity Cards */
+  .glass-card {
+    @apply bg-[#121214] border border-white/5 rounded-2xl shadow-2xl;
+  }
+
+  /* Ultra-Premium Button */
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-2.5 px-6 rounded-xl transition-all duration-300 shadow-lg shadow-indigo-600/20 active:scale-[0.98] flex items-center justify-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white/5 hover:bg-white/10 text-white font-medium py-2 px-5 rounded-xl transition-all duration-300 border border-white/5 flex items-center justify-center gap-2;
+  }
+
+  /* Floating Input Style */
+  .input-pill {
+    @apply bg-[#1C1C1E] border border-white/5 rounded-3xl px-6 py-4 focus-within:border-indigo-500/50 focus-within:ring-4 focus-within:ring-indigo-500/10 transition-all duration-500 shadow-2xl;
+  }
+
+  /* Refined Message Bubbles */
+  .bubble-base {
+    @apply max-w-[80%] rounded-2xl px-6 py-4 transition-all duration-300 leading-relaxed text-[15px];
+  }
+
+  .bubble-user {
+    @apply bg-indigo-600 text-white ml-auto shadow-lg shadow-indigo-600/10;
+  }
+
+  .bubble-assistant {
+    @apply bg-white/[0.03] border border-white/5 text-white/90 mr-auto;
+  }
+}
+
+@layer utilities {
+
+  /* Premium Custom Scrollbar - High Visibility */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 10px;
+    /* Wider for easier grabbing */
+    height: 10px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    /* Clearly visible track */
+    border-radius: 10px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    /* Higher contrast */
+    border-radius: 5px;
+    border: 2px solid #0A0A0B;
+    /* Padding effect */
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  /* Firefox */
+  .scrollbar-custom {
+    scrollbar-width: auto;
+    /* Standard width */
+    scrollbar-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.02);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+/* Prose/Markdown Refinements */
+.prose {
+  @apply text-white/90;
+}
+
+.prose code {
+  @apply bg-white/10 px-1.5 py-0.5 rounded text-indigo-300 font-mono text-sm;
+}
+
+.prose pre {
+  @apply bg-black/40 border border-white/5 rounded-xl p-4 my-4;
+}
+
+.prose strong {
+  @apply text-white font-bold;
+}

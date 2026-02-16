@@ -1,0 +1,7 @@
+﻿Testing interaction storage for real session: d2df1e3b-cfdb-462d-ad44-c396babe3603
+CRITICAL ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "interactions" violates foreign key constraint "interactions_session_id_fkey"
+DETAIL:  Key (session_id)=(d2df1e3b-cfdb-462d-ad44-c396babe3603) is not present in table "sessions".
+
+[SQL: INSERT INTO interactions (id, session_id, user_input, assistant_response, timestamp) VALUES (%(id)s::UUID, %(session_id)s::UUID, %(user_input)s, %(assistant_response)s, %(timestamp)s)]
+[parameters: {'id': UUID('a7131097-8960-4344-83ba-3a3002f504af'), 'session_id': UUID('d2df1e3b-cfdb-462d-ad44-c396babe3603'), 'user_input': 'What is Docker?', 'assistant_response': 'Docker is a containerization platform.', 'timestamp': datetime.datetime(2026, 2, 16, 12, 30, 53, 397767)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
