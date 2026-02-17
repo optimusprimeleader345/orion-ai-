@@ -5,7 +5,13 @@ import os
 # Add current directory to path so we can import modules
 sys.path.append(os.getcwd())
 
+from unittest.mock import MagicMock
 from orchestration.workflow import AgentWorkflow
+
+# Mock Database Manager
+import database.db_manager
+database.db_manager.db_manager = MagicMock()
+database.db_manager.db_manager.get_session_history.return_value = []
 
 async def test_workflow_stream():
     workflow = AgentWorkflow()
