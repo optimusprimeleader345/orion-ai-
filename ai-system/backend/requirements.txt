@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
 google-generativeai
 openai
@@ -7,3 +7,7 @@ httpx
 pydantic
 requests
 slowapi
+starlette
+psycopg2-binary
+sqlalchemy
+alembic

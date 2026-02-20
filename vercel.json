@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "ai-system/frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "ai-system/frontend/dist"
+      }
+    },
+    {
+      "src": "ai-system/backend/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/ai-system/backend/main.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/ai-system/frontend/dist/index.html"
+    }
+  ]
+}
