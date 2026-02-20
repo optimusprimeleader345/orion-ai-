@@ -17,8 +17,9 @@
 
   html,
   body {
-    @apply bg-[#0A0A0B] text-white antialiased overflow-hidden h-full selection:bg-indigo-500/30 selection:text-white;
+    @apply bg-[#0A0A0B] text-white antialiased selection:bg-indigo-500/30 selection:text-white;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
   }
 }
 

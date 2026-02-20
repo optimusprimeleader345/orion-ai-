@@ -73,9 +73,9 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
   }
 
   return (
-    <div className="flex-1 flex flex-col h-full bg-[#0A0A0B] relative overflow-hidden">
+    <div className="flex-1 flex flex-col h-full max-h-screen bg-[#0A0A0B] relative overflow-hidden">
       {/* Precision Header */}
-      <header className="z-20 px-8 py-6 flex items-center justify-between border-b border-white/[0.03] bg-[#0A0A0B]/80 backdrop-blur-md">
+      <header className="flex-shrink-0 z-20 px-8 py-6 flex items-center justify-between border-b border-white/[0.03] bg-[#0A0A0B]/80 backdrop-blur-md">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-600/20">
             <Command size={16} className="text-white" />
@@ -99,7 +99,7 @@ export const ChatInterface: React.FC<ChatInterfaceProps> = ({
       <main
         ref={scrollContainerRef}
         onScroll={handleScroll}
-        className="flex-1 min-h-0 overflow-y-scroll scrollbar-custom relative w-full"
+        className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden scrollbar-custom relative w-full"
       >
         <div className="max-w-3xl mx-auto pt-8 px-6 pb-32">
           {messages.length === 0 ? (
