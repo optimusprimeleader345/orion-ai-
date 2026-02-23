@@ -5,7 +5,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { atomDark as theme } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import remarkGfm from 'remark-gfm'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Copy, Check, Sparkles, ChevronDown, ChevronUp, Globe, Brain, Terminal } from 'lucide-react'
+import { Copy, Check, Sparkles, ChevronDown, ChevronUp, Globe, Brain } from 'lucide-react'
 import { SimulationStep } from '../data/mockChatData'
 
 interface MessageBubbleProps {

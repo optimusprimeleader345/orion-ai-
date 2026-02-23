@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { useAuth } from '../context/AuthContext'
 import {
-    Shield, Brain, ArrowRight, Activity, Command,
+    Brain, ArrowRight, Command,
     Globe2, Cpu, Twitter, Github, Play, CheckCircle2,
-    Zap, Lock, Eye, BarChart3, Server, Users, ChevronDown,
-    Sparkles, TrendingUp, Clock, Database
+    Lock, Eye, BarChart3, Server, Users, ChevronDown,
+    Sparkles, Database
 } from 'lucide-react'
 
 // ─── Types ───────────────────────────────────────────────────────────────────
